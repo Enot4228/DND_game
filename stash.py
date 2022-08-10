@@ -12,6 +12,7 @@ class HealingPotion(Stash):
         self.cost = 10
         self.heal = 8
         self.quantity = 3
+        self.type = 'Heal'
 
     def heal(self):
         import random
